@@ -5,6 +5,9 @@ import '@styles/global.css'
 export const metadeta = {
     title: 'Promptii',
     description: 'Discover and sharre AI-generated prompts for your next creative project.',
+    icons: {
+        favicon: '/assets/images/favicon.png',
+    }
 }
 
 const RootLayout = ({ children }) => {
